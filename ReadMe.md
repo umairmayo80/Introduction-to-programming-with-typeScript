@@ -1,4 +1,4 @@
-Absolutely! Let's break down the TypeScript learning roadmap into more detailed micro-level bullet points:
+TypeScript learning roadmap into more detailed with micro-level bullet points:
 
 1. **JavaScript Fundamentals:**
    - Variables and Scopes
