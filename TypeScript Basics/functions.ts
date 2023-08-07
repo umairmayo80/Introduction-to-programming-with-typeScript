@@ -32,7 +32,7 @@ function loginIn(username:string, password: string) {
 }
 
 
-//  function overloading in typescript
+//  function overloading in typescript.
 function singUp(name: string, email:string): string
 function singUp(username: string, email:string):string {
     return "Heloo";
