@@ -77,3 +77,23 @@ const laptop: Product = {
 
 console.log(laptop.name); // Output: Laptop
 // laptop.id = 67890; // This would result in a compilation error due to the readonly property.
+
+
+
+interface Vehicle {
+    brand: string;
+    year: number;
+}
+
+interface Car extends Vehicle {
+    model: string;
+}
+
+const myCar: Car = {
+    brand: "Toyota",
+    year: 2022,
+    model: "Camry"
+};
+
+console.log(myCar.brand);  // Output: Toyota
+console.log(myCar.model);  // Output: Camry
