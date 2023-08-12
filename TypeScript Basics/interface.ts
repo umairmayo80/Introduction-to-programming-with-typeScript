@@ -6,6 +6,23 @@ interface Person {
     age: number;
 }
 
+// Usage example
+
+
+function greet(person: Person): string {
+    return `Hello, ${person.firstName} ${person.lastName}! You are ${person.age} years old.`;
+}
+
+
+const john: Person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30
+};
+
+console.log(greet(john)); // Output: Hello, John Doe! You are 30 years old.
+
+
 const person: Person = {
     firstName: "John",
     lastName: "Doe",
@@ -39,3 +56,4 @@ interface MathFunction {
 }
 
 const add: MathFunction = (x, y) => x + y;
+
