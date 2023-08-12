@@ -56,4 +56,24 @@ interface MathFunction {
 }
 
 const add: MathFunction = (x, y) => x + y;
+const subtract: MathFunction = (x, y) => x - y;
 
+console.log(add(5, 3));      // Output: 8
+console.log(subtract(10, 2)); // Output: 8
+
+
+interface Product {
+    name: string;
+    price: number;
+    description?: string; // Optional property
+    readonly id: number;  // Readonly property
+}
+
+const laptop: Product = {
+    name: "Laptop",
+    price: 999,
+    id: 12345
+};
+
+console.log(laptop.name); // Output: Laptop
+// laptop.id = 67890; // This would result in a compilation error due to the readonly property.
