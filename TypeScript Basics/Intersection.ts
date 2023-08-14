@@ -29,3 +29,5 @@ const contact: ContactInfo = {
 type StringOrNumber = string | number;
 type NumberOrAddress = number | Address;
 
+
+export {};
