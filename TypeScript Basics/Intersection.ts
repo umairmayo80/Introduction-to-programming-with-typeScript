@@ -19,3 +19,13 @@ const contact: ContactInfo = {
     street: "123 Main St",
     city: "Anytown"
 };
+
+
+
+// Combining Union and Intersection Types:
+
+// You can also combine union and intersection types to create more complex type definitions.
+
+type StringOrNumber = string | number;
+type NumberOrAddress = number | Address;
+
